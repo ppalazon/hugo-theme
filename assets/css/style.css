@@ -375,6 +375,10 @@ blockquote {
     font-size: inherit;
 }
 
+blockquote p {
+  text-align: left;
+}
+
 hr {
   margin-top: 0;
 }
