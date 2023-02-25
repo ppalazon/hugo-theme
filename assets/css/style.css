@@ -373,6 +373,7 @@ blockquote {
     margin: 0 auto 21px auto;
     width: 90%;
     font-size: inherit;
+    padding: inherit;
 }
 
 blockquote p {
