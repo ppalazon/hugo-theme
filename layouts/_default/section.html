@@ -8,7 +8,7 @@
             {{ .Content }}
 
             {{ range .Sections }}
-            {{ .Render "summary" }}
+            {{ partial "bloc/section/section-summary.html" . }}
             {{ end }}
 
             {{ range sort .Paginator.Pages }}
