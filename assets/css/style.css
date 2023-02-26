@@ -388,3 +388,8 @@ hr {
     width: 93%;
     margin: auto;
 }
+
+.verse {
+  padding-left: calc(15px + (17 - 15) * ((100vw - 300px) / (1200 - 300)));
+  font-style: italic;
+}
